@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Calculator</title>
+  <link rel="stylesheet" href="attendance_cal.css">
+</head>
+<body>
+ <div class="box">
+    <h2>📊 Attendance Calculator</h2>
+    <input type="number" id="totalClasses" placeholder="Total Classes Held">
+    <input type="number" id="attendedClasses" placeholder="Classes Attended">
+    <input type="number" id="targetPercentage" placeholder="Target % (e.g. 75)">
+    <br>
+    <button onclick="calculateAttendance()">Check</button>
+    <div id="result"></div>
+  </div>
+
+  <!-- Copyright footer -->
+  <footer>
+    © 2025 Jatin Mathur. All Rights Reserved.
+  </footer>
+
+  <script src="attendance_cal.js"></script>
+</body>
+</html>
